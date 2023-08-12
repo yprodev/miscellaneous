@@ -30,3 +30,6 @@ myEmitter.emit('firstEvent');
 
 console.log('Listeners registered --->', myEmitter.listenerCount('firstEvent'));
 
+// You will get the function signatures with names if possible
+console.log('RAW listeners registered --->', myEmitter.rawListeners('firstEvent'));
+

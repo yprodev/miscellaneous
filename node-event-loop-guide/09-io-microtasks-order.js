@@ -9,6 +9,3 @@ Promise
   .resolve()
   .then(log('3 | promise'));
 
-
-
-
